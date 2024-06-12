@@ -29,4 +29,9 @@ public class ProductController {
     public ResponseEntity<List<ProductDTO>> findAll() {
         return ResponseEntity.ok(getProductService.findAll());
     }
+
+    @GetMapping
+    public ResponseEntity<ProductDTO> getByName(@RequestParam String name) {
+        return ResponseEntity.ok(getProductService.getByName(name));
+    }
 }

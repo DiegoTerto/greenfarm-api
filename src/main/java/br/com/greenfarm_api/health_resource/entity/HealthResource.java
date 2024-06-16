@@ -2,7 +2,6 @@ package br.com.greenfarm_api.health_resource.entity;
 
 import java.util.UUID;
 
-import br.com.greenfarm_api.address.dto.PersistAddressDTO;
 import br.com.greenfarm_api.farmer.entity.Farmer;
 import br.com.greenfarm_api.health_resource.dto.PersistHealthResourceDTO;
 import jakarta.persistence.Column;
